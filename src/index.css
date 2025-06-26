@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root{
+  color:white
+}
+
+body{
+  background-color:black;
+}
+
+@theme{
+  --font-fancy:'Old Standard TT', serif;
+  --font-display:'Exo 2', sans-serif;
+  --font-body:'Roboto', sans-serif;
+
+  --color-accent:#ffcc00;
+  --color-sec:gray;
+  --color-accent-hover:rgb(255 255 0 / 0.5);
+}
+::selection{
+  background-color: var(--color-accent);
+  color:black;
+}
